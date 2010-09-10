@@ -4,7 +4,7 @@ require 'sinatra/base'
 require 'markaby'
 require 'gist_loader'
 require 'std_capture'
-gem 'monkeybox', '=> 0.0.3'
+require 'monkeybox'
 
 class GistRunner < Sinatra::Base
 	 include StdCapture
