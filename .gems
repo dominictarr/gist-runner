@@ -2,5 +2,5 @@ sinatra
 httparty
 quick_attr
 std_capture
-monkeybox >= 0.0.3
+monkeybox  --version '>= 0.0.3'
 markaby 
